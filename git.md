@@ -1,3 +1,9 @@
+# Check git is installed
+
+`git -v`
+
+# Initialise a repository in the current directory
+
 ```
  git init
 ```
@@ -6,6 +12,7 @@
  git add *
  git commit -m "PHP notes and code demo"
 ```
+`add` means you have staged all the files for being committed.
 >
 >*** Please tell me who you are.
 >
