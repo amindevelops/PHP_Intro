@@ -129,4 +129,8 @@ To https://github.com/amindevelops/PHP_Intro.git
    2257286..04e0101  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
-
+As you can see, it `rejected` until it was overridden with the 
+```
+git pull origin master --allow-unrelated-histories
+```
+flag.
